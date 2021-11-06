@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Get to Work",
+        "image": "",
+        "description": "Full stack project management application created by me and four other students.",
+        "tech": "Technologies used:",
+        "repo": "https://github.com/nicolepingar/get_to_work",
+        "deployed": "https://sleepy-journey-30974.herokuapp.com/"
+    },
+    {
+        "id": 2,
+        "name": "Tech Blog",
+        "image": "",
+        "description": "Full stack application created using MVC framework.",
+        "tech": "Technologies used:",
+        "repo": "https://github.com/nicolepingar/tech_blog",
+        "deployed": "https://enigmatic-hamlet-25105.herokuapp.com/"
+    },
+    {
+        "id": 3,
+        "name": "Date Night",
+        "image": "",
+        "description": "",
+        "tech": "Technologies used:",
+        "repo": "https://github.com/nicolepingar/Date-Night",
+        "deployed": "https://nicolepingar.github.io/Date-Night/"
+    },
+    {
+        "id": 4,
+        "name": "Budget Tracker",
+        "image": "",
+        "description": "",
+        "tech": "Technologies used:",
+        "repo": "https://github.com/nicolepingar/budget_tracker-offline_access",
+        "deployed": "https://lit-caverns-54357.herokuapp.com/"
+    },
+    {
+        "id": 5,
+        "name": "Weather Dashboard",
+        "image": "",
+        "description": "",
+        "tech": "Technologies used:",
+        "repo": "https://github.com/nicolepingar/weather_dashboard",
+        "deployed": "https://nicolepingar.github.io/weather_dashboard/"
+    },
+    {
+        "id": 6,
+        "name": "Team Profile Generator",
+        "image": "",
+        "description": "",
+        "tech": "Technologies used:",
+        "repo": "https://github.com/nicolepingar/team_profile_generator",
+        "deployed": "https://drive.google.com/file/d/14t9o0fd29Wu-eKDzYnaASUzQZIol4dGv/view"
+    }
+]
