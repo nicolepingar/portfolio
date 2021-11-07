@@ -1,0 +1,72 @@
+:root {
+    --pink: #efbbcc;
+    --blue: #2E2252;
+}
+
+/* nav animation: https://codingyaar.com/responsive-bootstrap-navbar-underline-animation/# */
+
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--blue);
+}
+
+@media only screen and (min-width: 960px) {
+    .navbar .navbar-nav .nav-link {
+        padding: 1em 0.7em;
+    }
+    .navbar {
+        padding: 0;
+    }
+    .navbar .navbar-brand {
+        padding: 0 0.7em;
+    }
+}
+
+.navbar .navbar-nav .nav-link {
+    position: relative;
+}
+
+.navbar .navbar-nav .nav-link::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: var(--blue);
+    color: transparent;
+    width: 0%;
+    content: '';
+    height: 1.5px;
+    transition: all 0.5s;
+}
+
+.navbar .navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--blue);
+    font-family: 'Lora', serif;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.np {
+    color: white;
+    font-family: 'Lora', serif;
+    background-color: var(--blue);
+    border-radius: 100%;
+}
+
+.navbar .navbar-brand {
+    padding: 1px 5px;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-margin {
+    margin-left: 10px;
+}

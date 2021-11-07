@@ -1,0 +1,12 @@
+:root {
+    --pink: #efbbcc;
+    --blue: #2E2252;
+}
+
+.landing {
+    color: var(--blue);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 125px;
+    /* margin: 125px 0 0 270px; */
+}

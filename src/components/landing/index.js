@@ -1,11 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
+import "./style.css";
 
 export default function Home() {
     return (
-        <div>
-            <h1>Hi, my name is Nicole Pingar</h1>
-            <h4>and I am a Full Stack Web Developer.</h4>
+        <div className="landing">
+            <h1 className="hi-nicole">Hi, I'm Nicole</h1>
+            <h5 className="and-i">and I am a Full Stack Web Developer.</h5>
         </div>
     )
 }
