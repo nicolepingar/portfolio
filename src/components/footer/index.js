@@ -1,13 +1,18 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
-import "./style.css"
+import Row from "react-bootstrap/Row";
+import Col from 'react-bootstrap/Col';
+import "./style.css";
+import { Container } from 'react-bootstrap';
+
 
 export default function Footer() {
     return (
-        <div className="footer">
-            <i class="fab fa-github"></i>
-            <i class="fas fa-envelope"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="far fa-file"></i>
-        </div>
+        <Row className="footer">
+            <Col xs={2} className="padding-i"><i className="fab fa-github"></i></Col>
+            <Col xs={2} className="padding-i"><i className="fas fa-envelope"></i></Col>
+            <Col xs={2} className="padding-i"><i className="fab fa-linkedin"></i></Col>
+            <Col xs={2} className="padding-i"><i className="far fa-file"></i></Col>
+        </Row>
     )
 }

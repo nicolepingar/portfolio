@@ -9,7 +9,7 @@
     color: var(--blue);
 }
 
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 650px) {
     .navbar .navbar-nav .nav-link {
         padding: 1em 0.7em;
     }
