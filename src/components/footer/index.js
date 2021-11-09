@@ -8,11 +8,15 @@ import { Container } from 'react-bootstrap';
 
 export default function Footer() {
     return (
-        <Row className="footer">
-            <Col xs={2} className="padding-i"><i className="fab fa-github"></i></Col>
-            <Col xs={2} className="padding-i"><i className="fas fa-envelope"></i></Col>
-            <Col xs={2} className="padding-i"><i className="fab fa-linkedin"></i></Col>
-            <Col xs={2} className="padding-i"><i className="far fa-file"></i></Col>
-        </Row>
+        <Container className="footer justify-content-md-center">
+            <Row >
+                <Col className="padding-i"><a href="https://github.com/nicolepingar" target="_blank" rel="noopener"><i className="fab fa-github"></i></a></Col>
+                <Col className="padding-i"><a href="mailto:nicolepingar@gmail.com" ><i className="fas fa-envelope"></i></a></Col>
+                <Col className="padding-i"><a href="https://www.linkedin.com/in/nicolepingar/" target="_blank" rel="noopener"><i className="fab fa-linkedin"></i></a></Col>
+                <Col className="padding-i"><a href="https://docs.google.com/document/d/1P0FW8JKwZfem406qAqLxutIRgvENQ3VNIZuhuN2jRQs/edit?usp=sharing"
+                    target="_blank" rel="noopener"><i class="fas fa-file-alt"></i></a></Col>
+                <Col className="padding-i"><a href="./src/images/resume.pdf" target="_blank" rel="noopener"><i class="fas fa-file-alt"></i></a></Col>
+            </Row>
+        </Container>
     )
 }

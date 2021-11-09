@@ -1,10 +1,28 @@
-.footer {
-    position: absolute;
-    bottom: 0;
-    text-align: center;
-    left: 33%;
+:root {
+    --pink: #efbbcc;
+    --blue: #2E2252;
 }
 
-/* .padding-i {
-    width: 20px;
-} */
+.footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    left: 6%;
+}
+
+.padding-i {
+    padding: 8px 20px;
+}
+
+a {
+    color: var(--blue);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+i {
+    font-size: 25px;
+}
