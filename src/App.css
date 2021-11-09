@@ -5,4 +5,5 @@
 
 * {
   background-color: var(--pink);
+  z-index: auto;
 }

@@ -7,7 +7,7 @@ import Popover from 'react-bootstrap/Popover'
 import PopoverBody from 'react-bootstrap/PopoverBody'
 import PopoverHeader from 'react-bootstrap/PopoverHeader'
 import Button from 'react-bootstrap/Button'
-import ResumePDF from '../../images/resume.pdf'
+import ResumePDF from '../../assets/resume.pdf'
 import "./style.css";
 import { Container } from 'react-bootstrap';
 

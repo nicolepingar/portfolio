@@ -1,0 +1,15 @@
+.row {
+    text-align: center;
+}
+
+.col {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .row-cols-md-2>* {
+        flex: 0 0 auto;
+        width: 45%;
+        justify-content: center;
+    }
+}
