@@ -3,6 +3,44 @@
     --blue: #2E2252;
 }
 
+/* form/contact section */
+
+form {
+    width: 50%;
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: var(--blue);
+    padding-top: 20px;
+}
+
+.btn-primary {
+    color: white;
+    background-color: var(--blue);
+    border-color: transparent;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: var(--blue);
+    border-color: transparent;
+}
+
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    background-color: white;
+    color: var(--blue);
+    border-color: transparent;
+    box-shadow: none
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    background-color: white;
+    color: var(--blue);
+    border-color: transparent;
+    box-shadow: none
+}
+
+/* about section */
+
 .about-container {
     text-align: center;
     color: var(--blue);
