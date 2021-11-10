@@ -20,7 +20,7 @@ export default function About() {
 
                     After spending three years working in the healthcare industry, I decided I needed to make a career change and upon much research, I found coding. I quickly discovered a passion for web development, especially the logic and problem-solving aspects of it. I truly enjoy what I do and I am excited to see what the future holds.
 
-                    My technical skills include React, JavaScript, jQuery, HTML, CSS, Handlebars, Node.js, Jest, Express.js, MySQL, NoSQL, MongoDB, Sequelinze, and Express. Please see my projects here *****.
+                    My technical skills include React, JavaScript, jQuery, HTML, CSS, Handlebars, Node.js, Jest, Express.js, MySQL, NoSQL, MongoDB, Sequelinze, and Express. Please navigate to the projects page to see my projects.
 
                     In my spare time, I enjoy exercising, traveling, watching Bravo, and spending time with friends and family.
                 </Col>

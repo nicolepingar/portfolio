@@ -3,9 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
-import Image from "react-bootstrap/Image";
-import "./style.css"
+import "./style.css";
 import { validateEmail } from "../../utils/helpers";
 
 export default function Contact() {
@@ -21,17 +19,16 @@ export default function Contact() {
     const handleFormSubmit = (e) => {
         // Preventing the default behavior of the form submit (which is to refresh the page)
         e.preventDefault();
-
+        // if email is not valid or any field is empty, alert
         if (!validateEmail(email)) {
             alert("Invalid email. Please use a valid email.");
-            return
+            return;
         }
-
-        if (fullName == "" || email == "" || message == "") {
-            alert("Please fill out required fields.");
-            return
+        if (fullName === "" || email === "" || message === "") {
+            alert("All fields are required.");
+            return;
         }
-
+        // on click, sets input fields back to empty 
         setFullName('');
         setEmail('');
         setMessage('');
