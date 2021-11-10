@@ -11,9 +11,6 @@ export default function ProjectCard(props) {
                 <Card.Body>
                     <Card.Title>{props.name}</Card.Title>
                     <Card.Text>
-                        {props.description}
-                    </Card.Text>
-                    <Card.Text>
                         {props.tech}
                     </Card.Text>
                     <a href={props.repo} className="button6" target="_blank" rel="noreferrer">GitHub</a>

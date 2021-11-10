@@ -3,8 +3,8 @@
         "id": 1,
         "name": "Get to Work",
         "image": "/images/g2w.jpg",
-        "description": "Full stack project management application created by me and four other students.",
-        "tech": "Technologies used:",
+        "description": "Full stack project management application created to manage projects and tasks.",
+        "tech": "JavaScript | Handlebars | Express.js | MySQL | Sequelize | CSS | Materialize",
         "repo": "https://github.com/nicolepingar/get_to_work",
         "deployed": "https://sleepy-journey-30974.herokuapp.com/"
     },
@@ -13,7 +13,7 @@
         "name": "Tech Blog",
         "image": "/images/tech-blog.jpg",
         "description": "Full stack application created using MVC framework.",
-        "tech": "Technologies used:",
+        "tech": "JavaScript | Handlebars | Express.js | MySQL | Sequelize | CSS | Bootstrap",
         "repo": "https://github.com/nicolepingar/tech_blog",
         "deployed": "https://enigmatic-hamlet-25105.herokuapp.com/"
     },
@@ -22,7 +22,7 @@
         "name": "Date Night",
         "image": "/images/date-night.jpg",
         "description": "test",
-        "tech": "Technologies used:",
+        "tech": "JavaScript | jQuery | HTML | Bulma | Server-Side APIs",
         "repo": "https://github.com/nicolepingar/Date-Night",
         "deployed": "https://nicolepingar.github.io/Date-Night/"
     },
@@ -31,7 +31,7 @@
         "name": "Budget Tracker",
         "image": "/images/budget-tracker.jpg",
         "description": "test",
-        "tech": "Technologies used:",
+        "tech": "JavaScript | Express.js | Mongoose | MongoDB | HTML",
         "repo": "https://github.com/nicolepingar/budget_tracker-offline_access",
         "deployed": "https://lit-caverns-54357.herokuapp.com/"
     },
@@ -40,7 +40,7 @@
         "name": "Weather Dashboard",
         "image": "/images/weather.jpg",
         "description": "test",
-        "tech": "Technologies used:",
+        "tech": "JavaScript | HTML | CSS | Server-Side APIs | Bootstrap",
         "repo": "https://github.com/nicolepingar/weather_dashboard",
         "deployed": "https://nicolepingar.github.io/weather_dashboard/"
     },
@@ -49,7 +49,7 @@
         "name": "Team Profile Generator",
         "image": "/images/profile.jpg",
         "description": "test",
-        "tech": "Technologies used:",
+        "tech": "Node.js | Jest | JavaScript | HTML | Bootstrap",
         "repo": "https://github.com/nicolepingar/team_profile_generator",
         "deployed": "https://drive.google.com/file/d/14t9o0fd29Wu-eKDzYnaASUzQZIol4dGv/view"
     }
