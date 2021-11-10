@@ -27,8 +27,7 @@ export default function Contact() {
                     <Form.Label>Message</Form.Label>
                     <Form.Control as="textarea" rows={3} />
                 </Form.Group>
-                <Form.Group><Button>Submit</Button>{' '}</Form.Group>
-
+                <Form.Group> <button class="button6" target="_blank" rel="noopener">Submit</button>{' '}</Form.Group>
             </Form>
         </Container>
     )

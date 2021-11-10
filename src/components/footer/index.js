@@ -10,7 +10,7 @@ import Button from 'react-bootstrap/Button'
 import ResumePDF from '../../assets/resume.pdf'
 import "./style.css";
 import { Container } from 'react-bootstrap';
-
+// Bootstrap popover for phone number
 const popover = (
     <Popover id="popover-basic">
         <Popover.Header as="h3">484-883-2574</Popover.Header>

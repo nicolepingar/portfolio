@@ -8,18 +8,17 @@ import projects from '../../projects.json';
 import "./style.css";
 import { render } from "@testing-library/react";
 
-
 export default class Work extends Component {
     state = { projects };
-
     render() {
         return (
             <div className="projects-div">
-                <Row className="justify-content-md-center">Projects</Row>
-                <Row className="justify-content-md-center">Welcome to my sandbox. Please browse some of the projects I am proud of.</Row>
+                <Row className="justify-content-md-center project-header">Projects</Row>
+                <Row className="justify-content-md-center project-sub">Welcome to my sandbox, where I create functional and interactive web applications. <br></br>Please browse through the projects and explore the deployed links & github links.</Row>
                 <Row xs={1} md={2} className="g-4 justify-content-md-center">
                     {
                         this.state.projects.map(project => (
+                            // project card exported to project > index.js
                             <ProjectCard
                                 id={project.id}
                                 key={project.id}
@@ -36,5 +35,4 @@ export default class Work extends Component {
             </div >
         )
     }
-
 }
