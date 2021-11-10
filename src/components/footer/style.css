@@ -29,3 +29,7 @@ a:hover, .fa-phone:hover {
 i {
     font-size: 25px;
 }
+
+.popover-header {
+    color: var(--blue);
+}

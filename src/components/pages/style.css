@@ -56,12 +56,16 @@ button.button6:active {
     font-family: 'Montserrat', sans-serif;
 }
 
+.about-para {
+    padding-bottom: 35px;
+}
+
 .nicole-pic {
     width: 30%;
     height: auto;
     border-radius: 50%;
     border: solid var(--PinkL) 10px;
-    margin: 15px 0;
+    margin: 12px 0;
 }
 
 @media screen and (max-width: 768px) {

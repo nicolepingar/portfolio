@@ -2,7 +2,7 @@
 
 ## Description 
 
-I have created a portfolio page to showcase my skills, talents and projects. The portfolio includes an "About Me" page, "Projects" page and a "Contact" page. The footer includes links to my GitHub, email, LinkedIn, resume and phone number. This application was create with React and React Bootstrap.
+I have created a portfolio page to showcase my skills, talents and projects. The portfolio includes an "About Me", "Projects" and "Contact" page. The footer includes links to my GitHub, email, LinkedIn, resume and phone number. This application was create with React and React Bootstrap.
 
 ## Usage
 
