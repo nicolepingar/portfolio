@@ -1,6 +1,7 @@
 :root {
     --pink: #efbbcc;
     --blue: #2E2252;
+    --PinkL: #FFD5DB;
 }
 
 /* form/contact section */
@@ -53,19 +54,19 @@ button.button6:active {
 .about-title {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
-    padding-bottom: 15px;
 }
 
 .nicole-pic {
     width: 25%;
     height: auto;
     border-radius: 50%;
+    border: solid var(--PinkL) 10px;
+    margin: 15px 0;
 }
 
 .about-para {
     font-family: 'Lora', serif;
-    padding-top: 15px;
-    margin: 0 10%
+    margin: 0 10%;
 }
 
 .projects-div {

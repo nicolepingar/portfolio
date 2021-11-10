@@ -1,25 +1,25 @@
 :root {
     --pink: #efbbcc;
     --blue: #2E2252;
-    --orange: #FFD5DB;
+    --PinkL: #FFD5DB;
 }
 
 .card-title {
     font-family: 'Montserrat', sans-serif;
     color: var(--blue);
-    background-color: var(--orange);
+    background-color: var(--PinkL);
 }
 
 .card-text {
     font-family: 'Lora', serif;
     color: var(--blue);
-    background-color: var(--orange);
+    background-color: var(--PinkL);
     border-top: var(--blue) solid 1px;
     padding-top: 7px;
 }
 
 .card-body {
-    background-color: var(--orange);
+    background-color: var(--PinkL);
 }
 
 .card {
