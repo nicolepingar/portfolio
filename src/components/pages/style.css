@@ -14,7 +14,7 @@
 
 form {
     display: inline;
-    width: 50%;
+    width: 60%;
     text-align: center;
     font-family: 'Lora', serif;
     color: var(--blue);
@@ -57,11 +57,21 @@ button.button6:active {
 }
 
 .nicole-pic {
-    width: 25%;
+    width: 30%;
     height: auto;
     border-radius: 50%;
     border: solid var(--PinkL) 10px;
     margin: 15px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .nicole-pic {
+        width: 75%;
+        height: auto;
+    }
+    .about-container {
+        padding-bottom: 10px;
+    }
 }
 
 .about-para {
@@ -87,4 +97,20 @@ button.button6:active {
     color: var(--blue);
     text-align: center;
     padding-bottom: 10px;
+}
+
+/* media queries  */
+
+@media screen and (max-width: 768px) {
+    .nicole-pic {
+        width: 75%;
+        height: auto;
+    }
+    .about-container {
+        padding-bottom: 10px;
+    }
+    form {
+        width: 95%;
+        padding-top: 20px;
+    }
 }

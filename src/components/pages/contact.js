@@ -40,11 +40,11 @@ export default function Contact() {
                 <Row className="mb-3">
                     <h2 className="about-title">Get in Touch</h2>
                     <p>Please email me at nicolepingar@gmail.com or send me a message by filling out the form below:</p>
-                    <Form.Group as={Col} className="mb-3">
+                    <Form.Group as={Col} lg={6} sm={12} className="mb-3">
                         <Form.Label>Name</Form.Label>
                         <Form.Control value={fullName} onChange={handleInputChange} name="fullName" />
                     </Form.Group>
-                    <Form.Group as={Col} className="mb-3" controlId="exampleForm.ControlInput1">
+                    <Form.Group as={Col} lg={6} sm={12} className="mb-3" controlId="exampleForm.ControlInput1">
                         <Form.Label>Email</Form.Label>
                         <Form.Control type="email" value={email} onChange={handleInputChange} name="email" />
                     </Form.Group>

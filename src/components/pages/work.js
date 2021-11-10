@@ -9,7 +9,7 @@ export default class Work extends Component {
     render() {
         return (
             <div className="projects-div">
-                <Row className="justify-content-md-center project-header">Projects</Row>
+                <Row md={12} className="justify-content-md-center project-header">Projects</Row>
                 <Row className="justify-content-md-center project-sub">Welcome to my sandbox, where I create functional and interactive web applications. <br></br>Please browse through the projects and explore the deployed links & github links.</Row>
                 <Row xs={1} md={2} className="g-4 justify-content-md-center">
                     {
