@@ -1,7 +1,5 @@
 import React from "react";
-import Image from "react-bootstrap/Image";
 import Card from 'react-bootstrap/Card';
-import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
 import "./style.css";
 // props come from pages > work.js
@@ -15,8 +13,11 @@ export default function ProjectCard(props) {
                     <Card.Text>
                         {props.description}
                     </Card.Text>
-                    <a href={props.repo} className="button6" target="_blank" rel="noopener">GitHub</a>
-                    <a href={props.deployed} className="button6" target="_blank" rel="noopener">Deployed</a>
+                    <Card.Text>
+                        {props.tech}
+                    </Card.Text>
+                    <a href={props.repo} className="button6" target="_blank" rel="noreferrer">GitHub</a>
+                    <a href={props.deployed} className="button6" target="_blank" rel="noreferrer">Deployed</a>
                 </Card.Body>
             </Card>
         </Col>

@@ -1,12 +1,8 @@
 import React, { Component } from "react";
-import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
 import ProjectCard from "../project";
 import projects from '../../projects.json';
 import "./style.css";
-import { render } from "@testing-library/react";
 
 export default class Work extends Component {
     state = { projects };

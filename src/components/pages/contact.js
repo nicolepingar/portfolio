@@ -38,7 +38,7 @@ export default function Contact() {
         <Container className="container-center">
             <Form>
                 <Row className="mb-3">
-                    <h2 className="about-title">Contact Me</h2>
+                    <h2 className="about-title">Get in Touch</h2>
                     <p>Please email me at nicolepingar@gmail.com or send me a message by filling out the form below:</p>
                     <Form.Group as={Col} className="mb-3">
                         <Form.Label>Name</Form.Label>

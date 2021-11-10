@@ -17,7 +17,7 @@ const popover = (
     </Popover>
 );
 const Example = () => (
-    <OverlayTrigger trigger="click" placement="right" overlay={popover}>
+    <OverlayTrigger trigger="click" placement="left" overlay={popover}>
         <i variant="success" className="fas fa-phone"></i>
     </OverlayTrigger>
 );

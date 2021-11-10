@@ -70,3 +70,8 @@
 .navbar-margin {
     margin-left: 10px;
 }
+
+.navbar-light .navbar-toggler {
+    color: var(--blue);
+    border: none;
+}

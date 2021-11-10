@@ -11,18 +11,19 @@ import Footer from './components/footer'
 function App() {
   return (
     <div>
-      <HashRouter>
-        <Navigation />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="work" element={<Work />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-        </Routes>
-        <Footer />
-      </HashRouter>
+      <div className="positioning">
+        <HashRouter>
+          <Navigation />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="work" element={<Work />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+          </Routes>
 
-
+        </HashRouter>
+      </div>
+      <Footer />
     </div>
   );
 }

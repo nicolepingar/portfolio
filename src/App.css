@@ -7,3 +7,12 @@
   background-color: var(--pink);
   z-index: auto;
 }
+
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+
+.positioning {
+  padding-bottom: 2.5rem;
+}
