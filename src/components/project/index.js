@@ -15,8 +15,8 @@ export default function ProjectCard(props) {
                     <Card.Text>
                         {props.description}
                     </Card.Text>
-                    <a href={props.repo} class="button6" target="_blank" rel="noopener">GitHub</a>
-                    <a href={props.deployed} class="button6" target="_blank" rel="noopener">Deployed</a>
+                    <a href={props.repo} className="button6" target="_blank" rel="noopener">GitHub</a>
+                    <a href={props.deployed} className="button6" target="_blank" rel="noopener">Deployed</a>
                 </Card.Body>
             </Card>
         </Col>
