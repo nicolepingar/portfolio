@@ -9,8 +9,8 @@ import "./style.css"
 export default function About() {
     return (
         <Container className="about-container">
-            <Row>
-                <Col className="about-title">About Me</Col>
+            <Row className="row-title justify-content-md-center">
+                <Col className="about-title justify-content-md-center" lg="2">About Me</Col>
             </Row>
             <Row>
                 <Col><Image className="nicole-pic" src={nicole} alt="Picture of Nicole Pingar" /></Col>

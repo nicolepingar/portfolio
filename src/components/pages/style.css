@@ -54,6 +54,9 @@ button.button6:active {
 .about-title {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: inline;
+    border-radius: 10px;
 }
 
 .about-para {

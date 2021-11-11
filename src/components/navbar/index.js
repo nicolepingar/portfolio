@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import "./style.css";
+import ResumePDF from '../../assets/resume.pdf'
 
 
 export default function Navigation() {
@@ -17,6 +18,7 @@ export default function Navigation() {
                     <Link className="nav-item nav-link" to="/about"> About Me</Link>
                     <Link className="nav-item nav-link" to="/work">Projects</Link>
                     <Link className="nav-item nav-link" to="/contact">Contact Me</Link>
+                    <a className="nav-item nav-link" href={ResumePDF} target="_blank" rel="noopener">Resume</a>
                 </Nav>
             </Navbar.Collapse>
         </Navbar >
