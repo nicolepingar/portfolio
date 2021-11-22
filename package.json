@@ -1,6 +1,9 @@
 {
   "name": "nicole",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.x"
+  },
   "description": "",
   "main": "server/server.js",
   "homepage": "https://nicolepingar.github.io/portfolio",
