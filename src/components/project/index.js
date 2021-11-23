@@ -5,10 +5,10 @@ import "./style.css";
 // props come from pages > work.js
 export default function ProjectCard(props) {
     return (
-        <Col >
+        <Col>
             <Card >
                 <Card.Img variant="top" src={props.image} />
-                <Card.Body  >
+                <Card.Body>
                     <Card.Title>{props.name}</Card.Title>
                     <Card.Text>
                         {props.tech}
