@@ -17,7 +17,7 @@ export default function Navigation() {
                     <Link className="nav-item nav-link" to="/">Home</Link>
                     <Link className="nav-item nav-link" to="/about"> About Me</Link>
                     <Link className="nav-item nav-link" to="/work">Projects</Link>
-                    <Link className="nav-item nav-link" to="/contact">Contact Me</Link>
+                    {/* <Link className="nav-item nav-link" to="/contact">Contact Me</Link> */}
                     <a className="nav-item nav-link" href={ResumePDF} target="_blank" rel="noopener">Resume</a>
                 </Nav>
             </Navbar.Collapse>
