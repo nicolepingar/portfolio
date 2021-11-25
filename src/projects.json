@@ -1,10 +1,19 @@
 [
     {
+        "id": 4,
+        "name": "Prequel",
+        "image": "/images/budget-tracker.jpg",
+        "description": "test",
+        "tech": "Mongoose | MongoDB | Express.js | React | Node.js | Cloudinary",
+        "repo": "https://github.com/nicolepingar/prequel",
+        "deployed": "https://secret-escarpment-32444.herokuapp.com/"
+    },
+    {
         "id": 1,
         "name": "Get to Work",
         "image": "/images/g2w.jpg",
         "description": "Full stack project management application created to manage projects and tasks.",
-        "tech": "JavaScript | Handlebars | Express.js | MySQL | Sequelize | CSS | Materialize",
+        "tech": "JavaScript | Handlebars | Express.js | MySQL | Sequelize | Materialize | Node.js",
         "repo": "https://github.com/nicolepingar/get_to_work",
         "deployed": "https://sleepy-journey-30974.herokuapp.com/"
     },
@@ -13,7 +22,7 @@
         "name": "Tech Blog",
         "image": "/images/tech-blog.jpg",
         "description": "Full stack application created using MVC framework.",
-        "tech": "JavaScript | Handlebars | Express.js | MySQL | Sequelize | CSS | Bootstrap",
+        "tech": "JavaScript | Handlebars | Express.js | MySQL | Sequelize | Bootstrap | Node.js",
         "repo": "https://github.com/nicolepingar/tech_blog",
         "deployed": "https://enigmatic-hamlet-25105.herokuapp.com/"
     },
@@ -25,15 +34,6 @@
         "tech": "JavaScript | jQuery | HTML | Bulma | Server-Side APIs",
         "repo": "https://github.com/nicolepingar/Date-Night",
         "deployed": "https://nicolepingar.github.io/Date-Night/"
-    },
-    {
-        "id": 4,
-        "name": "Budget Tracker",
-        "image": "/images/budget-tracker.jpg",
-        "description": "test",
-        "tech": "JavaScript | Express.js | Mongoose | MongoDB | HTML",
-        "repo": "https://github.com/nicolepingar/budget_tracker-offline_access",
-        "deployed": "https://lit-caverns-54357.herokuapp.com/"
     },
     {
         "id": 5,

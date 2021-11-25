@@ -10,7 +10,7 @@ export default function ProjectCard(props) {
                 <Card.Img variant="top" src={props.image} />
                 <Card.Body>
                     <Card.Title>{props.name}</Card.Title>
-                    <Card.Text>
+                    <Card.Text className={props.id}>
                         {props.tech}
                     </Card.Text>
                     <a href={props.repo} className="button6" target="_blank" rel="noreferrer">GitHub</a>
@@ -21,3 +21,4 @@ export default function ProjectCard(props) {
 
     )
 }
+// picture size 5:3
