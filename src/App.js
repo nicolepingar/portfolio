@@ -10,15 +10,17 @@ import Footer from './components/footer';
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from './theme';
 import { GlobalStyles } from './global';
-
+// https://css-tricks.com/a-dark-mode-toggle-with-react-and-themeprovider/ dark theme
 function App() {
   const [theme, setTheme] = useState('light');
   const toggleTheme = () => {
-    if (theme === 'light') {
-      setTheme('dark');
-    } else {
-      setTheme('light');
-    }
+    setTimeout(() => {
+      if (theme === 'light') {
+        setTheme('dark');
+      } else {
+        setTheme('light');
+      }
+    }, 1000);
   }
 
   return (
@@ -35,7 +37,6 @@ function App() {
               <Route path="about" element={<About />} />
               {/* <Route path="contact" element={<Contact />} /> */}
             </Routes>
-
           </HashRouter>
         </div>
         <Footer />
