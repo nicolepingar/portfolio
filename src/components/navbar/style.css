@@ -13,9 +13,11 @@
     .navbar .navbar-nav .nav-link {
         padding: 1em 0.7em;
     }
+
     .navbar {
         padding: 0;
     }
+
     .navbar .navbar-brand {
         padding: 0 0.7em;
     }
@@ -78,4 +80,8 @@
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: var(--blue)
+}
+
+.toggle {
+    margin-left: 50%;
 }

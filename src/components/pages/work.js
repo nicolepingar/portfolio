@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
+import { Container } from 'react-bootstrap';
 import ProjectCard from "../project";
 import projects from '../../projects.json';
 import "./style.css";
@@ -9,7 +10,7 @@ export default class Work extends Component {
     state = { projects };
     render() {
         return (
-            <div className="projects-div">
+            <Container className="projects-div">
                 <Row md={12} className="justify-content-md-center project-header"><Col>Projects</Col></Row>
                 <Row className="justify-content-md-center project-sub"><Col>Welcome to my sandbox, where I create functional and interactive web applications. <br></br>Please browse through the projects and explore the deployed links & github links.</Col></Row>
                 <Row xs={1} md={2} className="g-4 justify-content-md-center">
@@ -29,7 +30,7 @@ export default class Work extends Component {
                         ))
                     }
                 </Row>
-            </div >
+            </Container >
         )
     }
 }

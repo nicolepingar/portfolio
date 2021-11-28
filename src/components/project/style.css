@@ -27,6 +27,18 @@
     min-height: 566.67px;
 }
 
+@media (max-width: 1185px) {
+    .card {
+        min-height: 461px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .card {
+        min-height: auto;
+    }
+}
+
 .row {
     text-align: center;
 }
@@ -42,7 +54,6 @@
 @media (min-width: 768px) {
     .row-cols-md-2>* {
         flex: 0 0 auto;
-        width: 46%;
         justify-content: center;
     }
 }
