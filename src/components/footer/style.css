@@ -20,11 +20,11 @@
 
 .padding-i {
     padding: 0 20px;
-    color: var(--blue);
+    /* color: var(--blue); */
 }
 
 a {
-    color: var(--blue);
+    /* color: var(--blue); */
     text-decoration: none;
 }
 

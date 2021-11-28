@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --pink: #efbbcc;
   --blue: #2E2252
 }
@@ -15,4 +15,14 @@
 
 .positioning {
   padding-bottom: 2.5rem;
+} */
+
+.toggle-button {
+  position: absolute;
+  padding: 0;
+  border: none;
+  background: none;
+  top: 14px;
+  right: 55px;
+  z-index: 5;
 }

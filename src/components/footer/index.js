@@ -23,11 +23,11 @@ export default function Footer() {
     return (
         <Container className="footer">
             <Row className="justify-content-md-center">
-                <Col sm={2} className="padding-i"><a href="https://github.com/nicolepingar" target="_blank" rel="noopener"><i className="fab fa-github"></i></a></Col>
-                <Col sm={2} className="padding-i"><a href="mailto:nicolepingar@gmail.com" ><i className="fas fa-envelope"></i></a></Col>
-                <Col sm={2} className="padding-i"><a href="https://www.linkedin.com/in/nicolepingar/" target="_blank" rel="noopener"><i className="fab fa-linkedin"></i></a></Col>
-                <Col sm={2} className="padding-i"><a href={ResumePDF} target="_blank" rel="noopener"><i className="fas fa-file-alt"></i></a></Col>
-                <Col sm={2} className="padding-i"><Example /></Col>
+                <Col sm={2} className="padding-i text-toggle"><a href="https://github.com/nicolepingar" target="_blank" rel="noopener" className="text-toggle"><i className="fab fa-github"></i></a></Col>
+                <Col sm={2} className="padding-i text-toggle"><a href="mailto:nicolepingar@gmail.com" className="text-toggle"><i className="fas fa-envelope"></i></a></Col>
+                <Col sm={2} className="padding-i text-toggle"><a href="https://www.linkedin.com/in/nicolepingar/" target="_blank" rel="noopener" className="text-toggle"><i className="fab fa-linkedin"></i></a></Col>
+                <Col sm={2} className="padding-i text-toggle"><a href={ResumePDF} target="_blank" rel="noopener" className="text-toggle"><i className="fas fa-file-alt"></i></a></Col>
+                <Col sm={2} className="padding-i text-toggle"><Example /></Col>
             </Row>
         </Container>
     )

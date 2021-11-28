@@ -21,7 +21,6 @@ export default function ProjectCard(props) {
                 </Card>
             </Col>
         </Container>
-
     )
 }
 // picture size 5:3

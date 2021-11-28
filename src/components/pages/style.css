@@ -48,7 +48,7 @@ button.button6:active {
 
 .about-container {
     text-align: center;
-    color: var(--blue);
+    /* color: var(--blue); */
 }
 
 .about-title {
@@ -76,6 +76,7 @@ button.button6:active {
         width: 75%;
         height: auto;
     }
+
     .about-container {
         padding-bottom: 10px;
     }
@@ -95,13 +96,13 @@ button.button6:active {
 .project-header {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
-    color: var(--blue);
+    /* color: var(--blue); */
     padding-bottom: 10px;
 }
 
 .project-sub {
     font-family: 'Montserrat', sans-serif;
-    color: var(--blue);
+    /* color: var(--blue); */
     text-align: center;
     padding-bottom: 10px;
 }
@@ -113,9 +114,11 @@ button.button6:active {
         width: 75%;
         height: auto;
     }
+
     .about-container {
         padding-bottom: 10px;
     }
+
     form {
         width: 95%;
         padding-top: 20px;

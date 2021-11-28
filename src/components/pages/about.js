@@ -8,7 +8,7 @@ import "./style.css"
 
 export default function About() {
     return (
-        <Container className="about-container">
+        <Container className="about-container text-toggle">
             <Row className="row-title justify-content-md-center">
                 <Col className="about-title justify-content-md-center" lg="2">About Me</Col>
             </Row>

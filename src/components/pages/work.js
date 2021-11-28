@@ -11,8 +11,8 @@ export default class Work extends Component {
     render() {
         return (
             <Container className="projects-div">
-                <Row md={12} className="justify-content-md-center project-header"><Col>Projects</Col></Row>
-                <Row className="justify-content-md-center project-sub"><Col>Welcome to my sandbox, where I create functional and interactive web applications. <br></br>Please browse through the projects and explore the deployed links & github links.</Col></Row>
+                <Row md={12} className="justify-content-md-center project-header text-toggle"><Col>Projects</Col></Row>
+                <Row className="justify-content-md-center project-sub text-toggle"><Col>Welcome to my sandbox, where I create functional and interactive web applications. <br></br>Please browse through the projects and explore the deployed links & github links.</Col></Row>
                 <Row xs={1} md={2} className="g-4 justify-content-md-center">
                     {
                         this.state.projects.map(project => (

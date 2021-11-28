@@ -1,12 +1,34 @@
-:root {
-    --pink: #efbbcc;
-    --blue: #2E2252;
-}
+import { createGlobalStyle } from 'styled-components';
 
-/* nav animation: https://codingyaar.com/responsive-bootstrap-navbar-underline-animation/# */
+export const GlobalStyles = createGlobalStyle`  
+  * {
+    background-color: ${({ theme }) => theme.body};
+    z-index: auto;
+  }
+  
+  #root {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .positioning {
+    padding-bottom: 2.5rem;
+  }
 
-/* .navbar .navbar-nav .nav-link:hover {
-    color: var(--blue);
+  .text-toggle {
+      color: ${({ theme }) => theme.text};
+  }
+
+  .toggle-button {
+    color: ${({ theme }) => theme.text};
+  }
+
+
+
+
+
+  .navbar .navbar-nav .nav-link:hover {
+    color: ${({ theme }) => theme.text};
 }
 
 @media only screen and (min-width: 650px) {
@@ -33,7 +55,7 @@
     left: 0;
     right: 0;
     margin: auto;
-    background-color: var(--blue);
+    background-color: ${({ theme }) => theme.text};
     color: transparent;
     width: 0%;
     content: '';
@@ -46,7 +68,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--blue);
+    color: ${({ theme }) => theme.text};
     font-family: 'Lora', serif;
 }
 
@@ -57,9 +79,9 @@
 .np {
     color: white;
     font-family: 'Lora', serif;
-    background-color: var(--blue);
+    background-color: ${({ theme }) => theme.text};
     border-radius: 100%;
-    border-color: var(--pink);
+    border-color: #efbbcc;
 }
 
 .navbar .navbar-brand {
@@ -75,14 +97,16 @@
 }
 
 .navbar-light .navbar-toggler {
-    color: var(--blue);
+    color: ${({ theme }) => theme.text};
     border: none;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: var(--blue)
+    color: ${({ theme }) => theme.text};
 }
 
 .toggle {
     margin-left: 50%;
-} */
+}
+
+`;
