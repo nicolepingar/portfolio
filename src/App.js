@@ -10,7 +10,7 @@ import Footer from './components/footer';
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from './theme';
 import { GlobalStyles } from './global';
-// https://css-tricks.com/a-dark-mode-toggle-with-react-and-themeprovider/ dark theme
+// https://css-tricks.com/a-dark-mode-toggle-with-react-and-themeprovider/ dark/light theme
 function App() {
   const [theme, setTheme] = useState('light');
   const toggleTheme = () => {
@@ -20,7 +20,7 @@ function App() {
       } else {
         setTheme('light');
       }
-    }, 1000);
+    }, 1000); // toggles after 1 second
   }
 
   return (
